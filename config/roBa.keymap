@@ -69,7 +69,7 @@
 &kp ESCAPE          &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INTERNATIONAL_1  &lt 2 SPACE  &lt_to_layer_0 3 INT_KANA      &kp BACKSPACE  &lt 3 SPACE                             &lt 1 BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         FUNCTION {
