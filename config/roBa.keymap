@@ -63,13 +63,13 @@
 
         default_layer {
             bindings = <
-&mt LEFT_CONTROL Q  &kp W         &kp E         &kp R                      &kp T                                                                 &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A               &kp S         &kp D         &kp F                      &kp G        &kp LS(LG(S))                             &kp MINUS      &kp H        &kp J  &kp K      &lt 5 L  &kp ENTER
-&kp LEFT_SHIFT      &kp Z         &kp X         &kp C                      &kp V        &kp B                                     &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE          &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 LANG_ZENKAKUHANKAKU      &kp BACKSPACE  &lt 3 SPACE                             &lt 1 BACKSPACE
+&mt LEFT_CONTROL Q  &kp W         &kp E         &kp R                      &kp T                                                       &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A               &kp S         &kp D         &kp F                      &kp G        &kp LS(LG(S))                   &kp MINUS      &kp H        &kp J  &kp K      &lt 5 L  &kp ENTER
+&kp LEFT_SHIFT      &kp Z         &kp X         &kp C                      &kp V        &kp B                           &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp ESCAPE          &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 LEFT_ALT  &lt 2 SPACE  &lt_to_layer_0 3 LC(SPACE)      &kp BACKSPACE  &lt 3 SPACE                             &lt 1 BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         FUNCTION {
@@ -113,7 +113,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                              &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         SCROLL {
