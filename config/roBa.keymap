@@ -41,10 +41,7 @@
         input_kw: input_kw {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_tap>,
-                <&kp N1 &kp E &kp D &kp E &kp N &kp E &kp R &kp N0>;
-
+            bindings = <&kp N1 &kp E &kp D &kp E &kp N &kp E &kp R &kp N0>;
             label = "INPUT_KW";
         };
     };
