@@ -23,6 +23,11 @@
             bindings = <&kp LS(TAB)>;
             key-positions = <12 13>;
         };
+
+        input_kw {
+            bindings = <&input_kw>;
+            key-positions = <8 9>;
+        };
     };
 
     macros {
@@ -31,6 +36,16 @@
             #binding-cells = <1>;
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
+        };
+
+        input_kw: input_kw {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp N1 &kp E &kp D &kp E &kp N &kp E &kp R &kp N0>;
+
+            label = "INPUT_KW";
         };
     };
 
